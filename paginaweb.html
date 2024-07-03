@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cabecera">
+        <div style="width: 75%; margin: auto;">
+            <div style="float: left;">
+                FERRETERIA CERTUS
+            </div>
+            <div style="float:right; padding: 10px;">
+                atencion@certus.edu.pe
+            </div>
+            <div>
+                <img src="img/banner2.jpg" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="cuerpo">
+        <div id="barra">
+            <p style="text-align: center; margin-bottom: 30px;" >Menú principal</p>
+            <ul>
+                <li><img src="img/lugarcito.jpg" width="10px" alt=""><a href="#" onclick="mostrarPag('pagina1')"> Home</a></li>
+                <li><img src="img/clavitos.jpg" width="10px" alt=""><a href="#" onclick="mostrarPag('pagina2')"> Clavos</a></li>
+                <li><img src="img/martillos.jpg" width="10px" alt=""><a href="#" onclick="mostrarPag('pagina3')"> Martillos</a></li>
+                <li><img src="" alt=""><a href="#" onclick="cerrar();">Cerrar sesión</a></li>
+            </ul>
+        </div>
+        <div id="contenido">
+            <div id="pagina1" class="pag active">
+                <h1>Croquis de la Ferreteria</h1>
+                <p>Foro de 20 personas</p>
+                <img src="img/lugar.jpg" width="100%" alt="">
+            </div>
+            <div id="pagina2" class="pag" >
+                <h1>Modelo de Clavos</h1>
+                <p>Stock de 500 unidades</p>
+                <img src="img/clavos.jpg" width="100%" alt="">
+            </div>
+            <div id="pagina3" class="pag">
+                <h1>Martillos Clasificados</h1>
+                <p>Stock de 70 unidades</p>
+                <img src="img/martillos.jpg" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="pie">
+        <div style="width: 100%;">
+            <div style="text-align: center;">
+                Autor: Christopher Vega<br>
+                Instituto CERTUS
+            </div>
+        </div>
+    </div>
+    <script src="js/codigo.js"></script>
+</body>
+</html>
